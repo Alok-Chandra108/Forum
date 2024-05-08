@@ -4,7 +4,7 @@
       define('APPURL', 'http://localhost/forum');
   } else {
       // Replace example.com with your actual domain name
-      define('APPURL', 'https://example.com/forum');
+      define('APPURL', 'https://alok-chandra108.github.io/Forum/');
   }
   
 ?>
