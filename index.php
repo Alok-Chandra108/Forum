@@ -1,4 +1,4 @@
-<?php require "includes/header.php";  ?>
+<?php require "header.php";  ?>
 <?php require "config/conf.php"; ?>
 
 <?php 
@@ -70,4 +70,4 @@
 					</div>
 				</div>
 			</div>
-			<?php require "includes/footer.php"; ?>
+			<?php require "footer.php"; ?>
