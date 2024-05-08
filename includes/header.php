@@ -1,6 +1,12 @@
 <?php
     session_start();
-    define("APPURL","http://localhost/forum");
+    if ($_SERVER['HTTP_HOST'] == 'localhost') {
+      define('APPURL', 'http://localhost/forum');
+  } else {
+      // Replace example.com with your actual domain name
+      define('APPURL', 'https://example.com/forum');
+  }
+  
 ?>
 
 <!DOCTYPE html>
